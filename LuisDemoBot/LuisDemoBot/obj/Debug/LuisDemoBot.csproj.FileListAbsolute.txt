@@ -1,0 +1,42 @@
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Bot Application.dll.config
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Bot Application.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Bot Application.pdb
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Autofac.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Chronic.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Microsoft.Bot.Builder.Autofac.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Microsoft.Bot.Builder.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Microsoft.Bot.Connector.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Microsoft.Rest.ClientRuntime.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Newtonsoft.Json.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\System.Net.Http.Formatting.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\System.Web.Http.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\System.Web.Http.WebHost.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Autofac.xml
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Microsoft.Bot.Builder.xml
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Microsoft.Bot.Builder.Autofac.xml
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Microsoft.Bot.Connector.xml
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\Newtonsoft.Json.xml
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\System.Net.Http.Formatting.xml
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\System.Web.Http.xml
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\System.Web.Http.WebHost.xml
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\en\Microsoft.Bot.Builder.resources.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\es\Microsoft.Bot.Builder.resources.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\it\Microsoft.Bot.Builder.resources.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\nl\Microsoft.Bot.Builder.resources.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\obj\Debug\LuisDemoBot.csprojResolveAssemblyReference.cache
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\obj\Debug\Bot Application.dll
+D:\Projects\Demo Bots\LuisDemoBot\LuisDemoBot\obj\Debug\Bot Application.pdb

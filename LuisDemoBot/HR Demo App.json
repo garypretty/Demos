@@ -1,0 +1,161 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "HR Demo App",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "BookLeave"
+    },
+    {
+      "name": "BookMeeting"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Attendee"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [
+    "datetimeV2"
+  ],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "book a holiday",
+      "intent": "BookLeave",
+      "entities": []
+    },
+    {
+      "text": "book some annual leave",
+      "intent": "BookLeave",
+      "entities": []
+    },
+    {
+      "text": "i want to take some time off",
+      "intent": "BookLeave",
+      "entities": []
+    },
+    {
+      "text": "i want to book some annual leave",
+      "intent": "BookLeave",
+      "entities": []
+    },
+    {
+      "text": "book a meeting this monday with jon seal for 2 hours",
+      "intent": "BookMeeting",
+      "entities": [
+        {
+          "entity": "Attendee",
+          "startPos": 32,
+          "endPos": 39
+        }
+      ]
+    },
+    {
+      "text": "schedule a 1 hours meeting with jon seal on saturday",
+      "intent": "BookMeeting",
+      "entities": [
+        {
+          "entity": "Attendee",
+          "startPos": 32,
+          "endPos": 39
+        }
+      ]
+    },
+    {
+      "text": "book some time with jon seal",
+      "intent": "BookMeeting",
+      "entities": [
+        {
+          "entity": "Attendee",
+          "startPos": 20,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "add a meeting for monday",
+      "intent": "BookMeeting",
+      "entities": []
+    },
+    {
+      "text": "book a 2 hours meeting",
+      "intent": "BookMeeting",
+      "entities": []
+    },
+    {
+      "text": "schedule some time with john yates on tuesday",
+      "intent": "BookMeeting",
+      "entities": [
+        {
+          "entity": "Attendee",
+          "startPos": 24,
+          "endPos": 33
+        }
+      ]
+    },
+    {
+      "text": "book 1 hour with bill gates",
+      "intent": "BookMeeting",
+      "entities": [
+        {
+          "entity": "Attendee",
+          "startPos": 17,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "book time next wednesday with steve ballmer",
+      "intent": "BookMeeting",
+      "entities": [
+        {
+          "entity": "Attendee",
+          "startPos": 30,
+          "endPos": 42
+        }
+      ]
+    },
+    {
+      "text": "book a meeting with simon michael next wednesday for 5 hours",
+      "intent": "BookMeeting",
+      "entities": [
+        {
+          "entity": "Attendee",
+          "startPos": 20,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "book some leave",
+      "intent": "BookLeave",
+      "entities": []
+    },
+    {
+      "text": "what is the bot framework?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "book some time with simon",
+      "intent": "BookMeeting",
+      "entities": [
+        {
+          "entity": "Attendee",
+          "startPos": 20,
+          "endPos": 24
+        }
+      ]
+    }
+  ]
+}
