@@ -1,0 +1,74 @@
+﻿@model CsSiteSearchDemo.ViewModels.SearchPageViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Search</h2>
+
+<p>A simple site search demo using the Custom Search service from the Cognitive Services suite.</p>
+
+@using (Html.BeginForm("Index", "Search", FormMethod.Post))
+{
+    <table id="tblSearch">
+        <tr>
+            <td>Search: </td>
+            <td>
+                @Html.TextBoxFor(m => m.Query)
+            </td>
+            <td><input type="submit" value="Submit" /></td>
+        </tr>
+    </table>
+}
+
+
+@if (Model.SessionsCtaTopic != null || Model.SessionsCtaDay != null)
+{
+    if (Model.SessionsCtaDay != null && Model.SessionsCtaTopic != null)
+    {
+         <div class="sessionsCta">
+             <h2>Looks like you're looking for sessions about @Model.SessionsCtaTopic on @Model.SessionsCtaDay</h2>
+             <p><a href="@Model.SessionsCtaLink" target="_blank">Click here to find them in our session scheduler!</a></p>
+         </div>
+    }
+    else if(Model.SessionsCtaTopic != null)
+    {
+        <div class="sessionsCta">
+            <h2>Looks like you're looking for @Model.SessionsCtaTopic sessions</h2>
+            <p><a href="@Model.SessionsCtaLink" target="_blank">Click here to find them in our session scheduler!</a></p>
+        </div>  
+    }
+    else
+    {
+        <div class="sessionsCta">
+            <h2>Looks like you're looking sessions on @Model.SessionsCtaDay</h2>
+            <p><a href="@Model.SessionsCtaLink" target="_blank">Click here to find them in our session scheduler!</a></p>
+        </div>  
+    }
+}
+else if (Model.qnaAnswers != null)
+{
+    <div class="sessionsCta">
+        <h2>@Model.qnaAnswers.First().questions.First()</h2>
+        <p>@Model.qnaAnswers.First().answer</p>
+        
+        <p>You might also be looking for....</p>
+        @foreach (var qna in Model.qnaAnswers.Skip(1))
+        {
+            <p><a href="#">@qna.questions.First()</a></p>
+        }
+    </div>      
+}
+
+@if (Model.SearchResponse != null)
+{
+    <p class="searchResultsSummary">Your search for '@Model.Query' returned @Model.SearchResponse.webPages.totalEstimatedMatches matches.</p>
+
+    foreach (var result in Model.SearchResponse.webPages.value)
+    {
+        <div class="result">
+            <h2><a href="@result.url">@result.name</a></h2>
+            <p>@result.snippet</p>
+        </div>
+    }
+}

@@ -14,7 +14,7 @@ namespace TranslationDemoBot.Services
 
         public static async Task<String> GetToken()
         {
-            var cognitiveServicesTokenIssuerEndpoint = new Uri("https://api.cognitive.microsoft.com/sts/v1.0/issueToken?Subscription-Key=YOUR_SUBSCRIPTION_KEY");
+            var cognitiveServicesTokenIssuerEndpoint = new Uri("https://api.cognitive.microsoft.com/sts/v1.0/issueToken?Subscription-Key=56fdc6bb06bd47ec9aa556273b18e8f5");
 
             HttpContent requestContent = new StringContent("", Encoding.UTF8, "application/xml");
             requestContent.Headers.ContentType = new MediaTypeHeaderValue("application/xml");

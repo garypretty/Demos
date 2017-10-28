@@ -8,7 +8,7 @@ using Microsoft.Bot.Connector;
 
 namespace LuisDemoBot.Dialogs
 {
-    [LuisModel("LUIS_MODEL_ID", "YOUR_SUBSCRIPTION_ID")]
+    [LuisModel("d56e8ccd-e37b-4cdd-803d-22b3387e8bc9", "fbba953fda634f898c9363859795863b")]
     [Serializable]
     public class RootDialog : LuisDialog<object>
     {
